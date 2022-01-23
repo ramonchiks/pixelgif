@@ -1,0 +1,77 @@
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('./fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.saturs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ 
+}
+
+.mansvards {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 20%;
+    left: 25%;
+    font-size: 4vw;
+    font-family: 'montserratregular';
+}
+
+
+.gifcontainer {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 40%;
+    left: 25%;
+}
+
+.gif1 {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 10vw;
+    left: 0%;
+}
+
+.gif2 {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 10vw;
+    right: 0%;
+}
+
+a {
+text-decoration: none;
+
+}
+
+img {
+    height: 100%;
+}
