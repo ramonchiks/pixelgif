@@ -7,7 +7,8 @@ html, body {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: black;
+    color: #f8baf5;
+    background-color: black;
 
 }
 
@@ -26,7 +27,6 @@ html, body {
     position: absolute;
     width: 100%;
     height: 100%;
-    text-align: center;
  
 }
 
@@ -34,38 +34,47 @@ html, body {
     position: absolute;
     width: 50%;
     height: 20%;
-    top: 20%;
+    top: 25%;
     left: 25%;
     font-size: 4vw;
     font-family: 'montserratregular';
+    text-align: center;
 }
 
 
 .gifcontainer {
     position: absolute;
-    width: 50%;
+    width: 80%;
     height: 20%;
-    top: 40%;
-    left: 25%;
+    top: 45%;
+    left: 10%;
 }
 
 .gif1 {
-    position: absolute;
+
     display: inline-block;
-    width: 50%;
+    width: 30%;
     height: 100%;
     font-size: 10vw;
     left: 0%;
 }
 
 .gif2 {
-    position: absolute;
     display: inline-block;
-    width: 50%;
+    width: 30%;
+    height: 100%;
+    font-size: 10vw;
+    left: 40%;
+}
+.gif3 {
+    display: inline-block;
+    width: 30%;
     height: 100%;
     font-size: 10vw;
     right: 0%;
 }
+
+
 
 a {
 text-decoration: none;
