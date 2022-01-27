@@ -12,17 +12,6 @@ html, body {
 
 }
 
-
-
-@font-face {
-    font-family: 'montserratregular';
-    src: url('./fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('./fonts/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 .saturs {
     position: absolute;
     width: 100%;
@@ -32,12 +21,11 @@ html, body {
 
 .mansvards {
     position: absolute;
-    width: 50%;
-    height: 20%;
-    top: 25%;
-    left: 25%;
+    width: 70%;
+    height: 25%;
+    top: 15%;
+    left: 15%;
     font-size: 4vw;
-    font-family: 'montserratregular';
     text-align: center;
 }
 
@@ -46,7 +34,7 @@ html, body {
     position: absolute;
     width: 80%;
     height: 20%;
-    top: 45%;
+    top: 55%;
     left: 10%;
 }
 
@@ -83,4 +71,5 @@ text-decoration: none;
 
 img {
     height: 100%;
+    background-color: transparent;
 }
