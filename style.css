@@ -1,15 +1,13 @@
 html, body {
   position: absolute;
     margin: 0px;
-    overflow: hidden;
     top: 0px;
     bottom: 0px;
     width: 100%;
     height: 100%;
     text-align: center;
     color: #f8baf5;
-    background-color: black;
-
+    background-image: url("./gif/galaxybckgr.gif");
 }
 
 .saturs {
@@ -35,6 +33,22 @@ html, body {
     width: 80%;
     height: 20%;
     top: 55%;
+    left: 10%;
+}
+
+.gifcontainer2 {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    top: 85%;
+    left: 10%;
+}
+
+.gifcontainer3 {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 105%;
     left: 10%;
 }
 
@@ -72,4 +86,25 @@ text-decoration: none;
 img {
     height: 100%;
     background-color: transparent;
+}
+
+
+
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #000000;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #f899f2;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #f899f2;
+    border: 2px solid #000000;
 }
