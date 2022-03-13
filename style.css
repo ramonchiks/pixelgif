@@ -47,10 +47,19 @@ html, body {
 .gifcontainer3 {
     position: absolute;
     width: 80%;
-    height: 10%;
-    top: 105%;
+    height: 20%;
+    top: 115%;
     left: 10%;
 }
+
+.bottom {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 135%;
+    left: 10%;
+}
+
 
 .gif1 {
 
